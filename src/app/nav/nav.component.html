@@ -1,0 +1,20 @@
+<mat-toolbar color="primary" class="navbar">
+    <div>
+        CodeX
+    </div>  
+    <div>
+       <div *ngIf="loggedin ; then lg ; else lo;"> </div>
+          <ng-template #lg>
+                <button mat-raised-button  color="primary" class="c1">Login</button> 
+                <button mat-raised-button  color="primary" class="c1">Sign-up</button>
+          </ng-template>
+          <ng-template #lo>
+                <button mat-raised-button>Logout</button>
+          </ng-template>
+
+      
+       
+        
+        
+    </div> 
+</mat-toolbar> 

@@ -1,0 +1,41 @@
+
+.c1
+{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.c2
+{
+    width: 50%;
+    padding-left: 25px;
+    float: left;
+}
+.c3
+{
+    width: 50%;
+    padding-left: 25px;
+    float: right;
+}
+.c4
+{
+    height: 30%;
+    padding-left: 25px;
+}
+.c5
+{
+    padding-left: 25px;
+}
+.c10
+  {
+    float:right;
+    padding-right: 50px;
+  }
+.c11
+{
+    padding-left: 150px;
+}
+.c12
+{
+    padding-left: 175px;
+}
+  
