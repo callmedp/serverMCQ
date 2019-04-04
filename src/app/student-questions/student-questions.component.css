@@ -1,13 +1,13 @@
-.c0
-{width : 35%;height : 90%;
+.quesDisplay
+{width : 30%;height : 90%;
 float: left;}
-.c1
+.timer
 {height : 35% ;}
-.c2
+.quesSet
 {height : 76%;}
-.c3
+.ques
 {
-    width : 55%;height:100% ;
+    width : 70%;height:100% ;
     float: right;
 }
 .c8

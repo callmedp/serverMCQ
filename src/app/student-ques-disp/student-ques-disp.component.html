@@ -1,0 +1,24 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      Question No. {{questionNo}}
+    </mat-card-title>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <p>
+      {{putYourQuestionsOutHere}}
+    </p>
+      <div>
+          <mat-radio-group class="example-radio-group">
+            <mat-radio-button class="example-radio-button" 
+              *ngFor="let option of options" [value]="option">
+              {{option}}
+            </mat-radio-button>
+        </mat-radio-group>
+      </div>
+  </mat-card-content>
+  <mat-card-actions class="save">
+    <button mat-raised-button color="accent" >Save And Next</button>
+  </mat-card-actions>
+</mat-card>

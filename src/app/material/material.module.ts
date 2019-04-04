@@ -11,14 +11,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatTableModule} from '@angular/material/table';
 import {ScrollDispatchModule} from '@angular/cdk/scrolling';
-
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 const allModules= [
     MatButtonModule,
     MatToolbarModule,
     MatSidenavModule,
     MatFormFieldModule,
     MatSelectModule,
-   
+    MatProgressBarModule,
     MatInputModule,
     MatListModule,
     MatDividerModule,

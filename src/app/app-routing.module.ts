@@ -7,6 +7,7 @@ import { QInputComponent } from './q-input/q-input.component';
 import { TestDashComponent } from './test-dash/test-dash.component';
 import { QuestionComponent } from './question/question.component';
 import { ReportComponent } from './report/report.component';
+import { StudentQuestionsComponent } from './student-questions/student-questions.component';
 
 const routes: Routes = [
   
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:'qinput',component:QInputComponent},
   {path:'testdash',component:TestDashComponent},
   {path:'question',component:QuestionComponent},
-  {path:'report',component:ReportComponent}
+  {path:'report',component:ReportComponent},
+  {path:'studentTest',component:StudentQuestionsComponent }
 
 ];
 
@@ -25,3 +27,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routingComponent=[TeacherDashComponent,StudentQuestionsComponent,
+TestDashComponent,ReportComponent,QInputComponent,TeacherFullComponent,TestFormComponent,
+QuestionComponent]
