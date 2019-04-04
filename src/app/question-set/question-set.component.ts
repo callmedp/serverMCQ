@@ -11,5 +11,5 @@ export class QuestionSetComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  items=[1,2,3,4]
 }

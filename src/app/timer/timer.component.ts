@@ -11,5 +11,9 @@ export class TimerComponent implements OnInit {
 
   ngOnInit() {
   }
+  color = 'warn';
+  mode = 'determinate';
+  value = 50;
+  bufferValue = 75;
 
 }
