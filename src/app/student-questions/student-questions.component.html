@@ -1,19 +1,26 @@
 <app-nav></app-nav>
-<div class="c8">
-        <div class="quesDisplay">
-                <div class="timer">
-                    <app-timer></app-timer>
-                </div>
-                <div class="quesSet">
-                  
-            
-                </div> 
-        </div>
-        <div class="ques">
+<mat-grid-list cols="3" rowHeight="2:1">
+                <mat-grid-tile
+                    colspan="1"
+                    rowspan="1"
+                    style.background="lightblue"
+                >
+                        <app-timer></app-timer>
+                </mat-grid-tile>
+                <mat-grid-tile
+                colspan="2"
+                rowspan="2"
+                style.background="lightpink"
+            >
+                    <app-student-ques-disp></app-student-ques-disp>
+            </mat-grid-tile>
+                <mat-grid-tile
+                    colspan="1"
+                    rowspan="1"
+                    style.background="lightgreen"
+                >
+                <app-question-set></app-question-set>
+                </mat-grid-tile>
+                        
                
-            <app-student-ques-disp></app-student-ques-disp>
-            
-            
-        </div>
-</div>
-<mat-divider [vertical]="true"></mat-divider>
+              </mat-grid-list>

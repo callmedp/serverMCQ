@@ -12,7 +12,9 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatTableModule} from '@angular/material/table';
 import {ScrollDispatchModule} from '@angular/cdk/scrolling';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatGridListModule} from '@angular/material/grid-list';
 const allModules= [
+  MatGridListModule,
     MatButtonModule,
     MatToolbarModule,
     MatSidenavModule,
