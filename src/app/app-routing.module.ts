@@ -26,3 +26,10 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const RoutingComponent=[HomeComponent,
+TeacherDashComponent,
+TeacherFullComponent,
+TestFormComponent,
+QInputComponent,
+TestDashComponent,
+QuestionComponent,ReportComponent]
