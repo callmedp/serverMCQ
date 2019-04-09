@@ -11,6 +11,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatTableModule} from '@angular/material/table';
 import {ScrollDispatchModule} from '@angular/cdk/scrolling';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTabsModule} from '@angular/material/tabs';
 
 const allModules= [
     MatButtonModule,
@@ -25,7 +27,9 @@ const allModules= [
     MatCardModule,
     MatRadioModule,
     MatTableModule,
-    ScrollDispatchModule
+    ScrollDispatchModule,
+    MatDialogModule,
+    MatTabsModule
     
 ];
 @NgModule({

@@ -1,0 +1,60 @@
+<mat-tab-group dynamicHeight>
+  <mat-tab label="Student">
+    <div class="example-small-box mat-elevation-z4">
+      <mat-form-field class="c1">
+        Student Name  
+        <input [(ngModel)]="studentdata.stname" name="stname" matInput >
+      </mat-form-field>
+      <mat-form-field class="c1">
+        Student Roll.No  
+        <input [(ngModel)]="studentdata.strollno" name="strollno" matInput >
+      </mat-form-field>
+      <br>
+      <mat-form-field class="c1">
+        Password  
+        <input [(ngModel)]="studentdata.stpass" name="stpass" matInput type="password" >
+      </mat-form-field>
+      <mat-form-field class="c1">
+        Email id.  
+        <input [(ngModel)]="studentdata.stemail" name="stemail" matInput >
+      </mat-form-field>
+      <br>
+      <mat-form-field class="c1">
+        Mobile No.
+        <input [(ngModel)]="studentdata.stmobile" name="stmobile" matInput >
+      </mat-form-field>
+
+      
+    <button (click)="signupstudent()" class="c2" mat-raised-button color="warn">Signin</button>
+    </div>
+  </mat-tab>
+  <mat-tab label="Teacher">
+    <div class="example-large-box mat-elevation-z4">
+      <mat-form-field class="c1">
+        Teacher Name  
+        <input [(ngModel)]="teacherdata.stname" name="tname" matInput >
+      </mat-form-field>
+      <mat-form-field class="c1">
+       Teacher Id  
+        <input [(ngModel)]="teacherdata.tid" name="tid" matInput >
+      </mat-form-field>
+      <br>
+      <mat-form-field class="c1">
+        Password  
+        <input [(ngModel)]="teacherdata.tpass" name="tpass" matInput type="password">
+      </mat-form-field>
+      <mat-form-field class="c1">
+        Email id.  
+        <input [(ngModel)]="teacherdata.temail" name="temail" matInput >
+      </mat-form-field>
+      <br>
+      <mat-form-field class="c1">
+        Mobile No.
+        <input [(ngModel)]="teacherdata.tmobile" name="tmobile" matInput >
+      </mat-form-field>
+
+      
+    <button (click)="signupteacher()" class="c2" mat-raised-button color="warn">Signin</button>
+    </div>
+  </mat-tab>
+</mat-tab-group>

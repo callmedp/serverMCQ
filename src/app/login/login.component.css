@@ -1,0 +1,26 @@
+.example-small-box, .example-large-box {
+    
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .example-small-box {
+    height: 300px;
+    width: 470px;
+  }
+  
+  .example-large-box {
+    height: 300px;
+    width: 470px;
+  }
+  .c1
+  {
+      padding-left: 100px;
+  }
+  .c2
+  {
+      margin-left: 100px;
+  }
+  

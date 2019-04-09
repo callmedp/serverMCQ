@@ -1,5 +1,5 @@
-<app-question ></app-question>
-<app-question ></app-question>
-<app-question ></app-question>
-<app-question ></app-question>
-<app-question ></app-question>
+<button mat-raised-button (click)="fetchques()">Refresh</button>
+<div *ngFor="let data of qdata">
+    <app-question [(Question)]="data" ></app-question>
+</div>
+
