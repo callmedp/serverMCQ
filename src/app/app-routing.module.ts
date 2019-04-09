@@ -7,14 +7,12 @@ import { QInputComponent } from './q-input/q-input.component';
 import { TestDashComponent } from './test-dash/test-dash.component';
 import { QuestionComponent } from './question/question.component';
 import { ReportComponent } from './report/report.component';
-<<<<<<< HEAD
 import { StudentQuestionsComponent } from './student-questions/student-questions.component';
-=======
 import { HomeComponent } from './home/home.component';
->>>>>>> updated-sarthak
+
 
 const routes: Routes = [
-  {path:'',component:HomeComponent},
+  {path:'',component : HomeComponent},
   {path:'teacherdash',component:TeacherDashComponent},
   {path :'teacherfull', component:TeacherFullComponent},
   {path:'testform',component : TestFormComponent},
@@ -31,11 +29,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-<<<<<<< HEAD
-export const routingComponent=[TeacherDashComponent,StudentQuestionsComponent,
-TestDashComponent,ReportComponent,QInputComponent,TeacherFullComponent,TestFormComponent,
-QuestionComponent]
-=======
+
 export const RoutingComponent=[HomeComponent,
 TeacherDashComponent,
 TeacherFullComponent,
@@ -43,4 +37,4 @@ TestFormComponent,
 QInputComponent,
 TestDashComponent,
 QuestionComponent,ReportComponent]
->>>>>>> updated-sarthak
+
