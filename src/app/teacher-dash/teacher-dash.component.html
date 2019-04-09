@@ -2,7 +2,7 @@
     <mat-sidenav-container>
         <mat-sidenav [(opened)]="open" >
             <button routerLink="/teacherfull"  mat-raised-button  color="primary">Create Test</button><br><br>
-          <button routerLink="/report" mat-raised-button color="primary">View Status</button>
+          <button (click)='openDialog()' mat-raised-button color="primary">View Status</button>
 
         </mat-sidenav>
         <mat-sidenav-content>
